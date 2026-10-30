@@ -1,0 +1,8 @@
+<script setup lang="ts">
+import { reactive } from 'vue'
+import type { useAccountSettings } from '../../composables/useAccountSettings'
+defineProps<{state:ReturnType<typeof useAccountSettings>}>()
+const visible=reactive({currentPassword:false,newPassword:false,confirmNewPassword:false})
+const fields=[['currentPassword','当前密码'],['newPassword','新密码'],['confirmNewPassword','确认新密码']] as const
+</script>
+<template><section class="card"><h2>修改密码</h2><form v-if="!state.confirming.value" @submit.prevent="state.preparePassword"><fieldset :disabled="state.busy.value||!!state.pending.value"><label v-for="[key,label] in fields" :key="key">{{ label }}<div class="password-field"><input v-model="state.passwords[key]" :type="visible[key]?'text':'password'" :autocomplete="key==='currentPassword'?'current-password':'new-password'" maxlength="64" required><button type="button" :aria-label="`${visible[key]?'隐藏':'显示'}${label}`" :aria-pressed="visible[key]" @click="visible[key]=!visible[key]">{{ visible[key]?'隐藏':'显示' }}</button></div></label><p>新密码8—32位，至少含英文字母和数字。</p><div class="actions"><button class="primary" type="submit">核对并修改密码</button><button class="secondary" type="button" @click="state.clearPasswords">清空</button></div></fieldset></form><div v-else><p class="notice">确认修改 {{ state.profile.value?.loginName }} 的密码？保存成功将使该账号所有原登录失效。密码不会在确认页显示。</p><button class="primary" :disabled="state.busy.value||!!state.pending.value" @click="state.changePassword">确认修改密码</button><button class="secondary" :disabled="state.busy.value||!!state.pending.value" @click="state.backPassword">返回修改</button></div></section></template>

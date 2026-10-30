@@ -1,0 +1,15 @@
+.cache/
+tools/
+data/
+logs/
+backend/target/
+frontend/node_modules/
+frontend/dist/
+config/local*.yml
+!config/local.example.yml
+*.log
+.idea/
+.codex/
+tests/evidence/
+plan/.backups/
+

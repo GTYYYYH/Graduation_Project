@@ -1,0 +1,1688 @@
+{
+  "date": "2026-10-13",
+  "batch": "B03",
+  "route": "project-authored parametric geometry",
+  "sourceDirectories": [
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D",
+      "exists": true,
+      "formats": {
+        ".max": 1,
+        ".jpg": 36,
+        ".hdr": 1,
+        ".vrmesh": 4
+      },
+      "fileCount": 42,
+      "bytes": 77354424,
+      "files": [
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66.com_1160697.max",
+          "bytes": 26669056,
+          "sha256": "77e5809663ad65dcd9e12f6a9dde9b6f1118f82bc6bd541627f0be282e78523e",
+          "header16Hex": "d0cf11e0a1b11ae10000000000000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-1.jpg",
+          "bytes": 140611,
+          "sha256": "f9eb9ad09652ea0ca774be23dd94fc78d27b2ee504246d77768224ee9679bc98",
+          "header16Hex": "ffd8ffe000104a464946000102000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-10.hdr",
+          "bytes": 122492,
+          "sha256": "d8423ae00ca5cf9684f05ccf61f569bcc1f203c3f4e80c26691d99cd00e7edbe",
+          "header16Hex": "233f52414449414e43450a23204d6164"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-11.jpg",
+          "bytes": 3299664,
+          "sha256": "31d2a319ca63b9fc198f7a89dd0157b06f849651ec34b0e69fbe0ec15ecf17d9",
+          "header16Hex": "ffd8ffe000104a464946000101010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-12.jpg",
+          "bytes": 27247,
+          "sha256": "ec82c92b1ce4526da0764ce31f33564c915021fe21030a8cc93ca27315698a08",
+          "header16Hex": "ffd8ffe000104a464946000101010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-13.jpg",
+          "bytes": 87996,
+          "sha256": "9083ccae296415e78fe2ae3efc7ef82dfbf2da3db294878b9a420e7ce3f431d8",
+          "header16Hex": "ffd8ffe000104a464946000101010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-14.jpg",
+          "bytes": 20362,
+          "sha256": "4c08de2ee85100d75e3f5b215bf4066f1b3357a681f66a8c4a0bd6b1d5c5f946",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-15.jpg",
+          "bytes": 281790,
+          "sha256": "6826c55243154897f6822255bb79562fb325950e554493300712185b3af69384",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-16.JPG",
+          "bytes": 88492,
+          "sha256": "54e90b71cc6b970d113005494ebd3ddef182e3f1e895210e4738f6a9f14819f6",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-17.jpg",
+          "bytes": 19339,
+          "sha256": "8f8b96411d10ea0c7014daeba79205f1ec74cce9342a8bafa8e234b7e65e8f42",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-18.jpg",
+          "bytes": 121858,
+          "sha256": "1ee532e41e66d7fa3c1655a9d3f83901a98fff22753fa26f9db6b00b81632ab5",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-19.jpg",
+          "bytes": 721654,
+          "sha256": "dfbd5ee2295e1d8fedeeb7291b6780a502c4aef170587b80a9e503d4835375f3",
+          "header16Hex": "ffd8ffe000104a464946000101010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-2.jpg",
+          "bytes": 42342,
+          "sha256": "2920202adb06f1361132f0529b2886066d629c49fabaa7b49ca9550f9d106fe4",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-20.jpg",
+          "bytes": 509042,
+          "sha256": "28f9a89574ad2a69c3421a69c5e4345aaf2551b9d1aea94f0ee05050b8317541",
+          "header16Hex": "ffd8ffe000104a464946000102010096"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-21.jpg",
+          "bytes": 575686,
+          "sha256": "c43b3765945f36ae5212be8c75622f89710d64d342b6333f841c63976bf145fe",
+          "header16Hex": "ffd8ffe000104a464946000102010096"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-22.jpg",
+          "bytes": 2337581,
+          "sha256": "9d5930cc0dde8faab49bd339b39881d9455a3904e72594e11b9744ad53195402",
+          "header16Hex": "ffd8ffe11ced4578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-23.jpg",
+          "bytes": 12448,
+          "sha256": "fb946f308a720883ee92c85a78c0a04dfdd72c8654a63fd93d69eb715d4c75a1",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-24.jpg",
+          "bytes": 3922382,
+          "sha256": "98dc0a43bf734ceaf1922bf6bcdacdf2139ece14ac6c5983cfaff70009a29aed",
+          "header16Hex": "ffd8ffe000104a46494600010101012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-25.jpg",
+          "bytes": 58483,
+          "sha256": "ce11f9a74f61f8e127c22ecb7951f93dc4799a5e92c6b4026d1ad935f3f3bd11",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-26.jpg",
+          "bytes": 412285,
+          "sha256": "616bd9873743b23081c32569c716ddf0dcf9751410c7929c3166188eb551ff59",
+          "header16Hex": "ffd8ffe000104a46494600010201012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-27.jpg",
+          "bytes": 1125517,
+          "sha256": "7b2bb1b571cacb1648ea628955e3c3289503e72ea28a6583d2c62d9100779416",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-28.JPG",
+          "bytes": 170193,
+          "sha256": "23eddd3314a214b70c0e14c83ca80f9a5d5e3809bb1ab353e1fcab202571e113",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-29.jpg",
+          "bytes": 310987,
+          "sha256": "db8224124d46060b518377c3c09dbf768213408b2499c1b6a24f85744581dab5",
+          "header16Hex": "ffd8ffe000104a464946000102010064"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-3.jpg",
+          "bytes": 24605,
+          "sha256": "e31e4d88292c7a58efa5b174d172e1a881f86b042cc6815b7b7b0c9a2ff9d93e",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-30.jpg",
+          "bytes": 1595079,
+          "sha256": "5e42400bd20925fc59c18dec5a1e9aecca3dcc2e59df7d68efe1ebdd6afa4c93",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-31.jpg",
+          "bytes": 287705,
+          "sha256": "30864a04a1b359e2f62671ac8bbd542c0449c429ae54d020218c15c3b4d52433",
+          "header16Hex": "ffd8ffe000104a46494600010101012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-32.jpg",
+          "bytes": 9015,
+          "sha256": "51c2569ef2c1bbf167269adb2e20efa497ea84603120b4a21660e0b78bfcf76f",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-33.jpg",
+          "bytes": 11606,
+          "sha256": "5b4db493829ecdb8c8c207807054e95de93f4d1d1715b72e43a7fa5d5ec63f40",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-34.jpg",
+          "bytes": 187435,
+          "sha256": "a635cf92ea3f34f7619a2845c1439d953716ac7d4af8c7e29d9b107ec76f280a",
+          "header16Hex": "ffd8ffe000104a464946000101010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-35.jpg",
+          "bytes": 14137,
+          "sha256": "893e989bb5780f5add338726c268be85bd75034a2b634bd196b6272086c4a3b5",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-36.jpg",
+          "bytes": 7917,
+          "sha256": "4a8bbd33f6527f45915f8a389ffdea926380c393ea0bacd0056b4f2a7f46936c",
+          "header16Hex": "ffd8ffe000104a464946000101010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-37.jpg",
+          "bytes": 51025,
+          "sha256": "4449ee02cc4225608668d133517c8af24f5a11893c170862c6e221b0644542e2",
+          "header16Hex": "ffd8ffe000104a464946000101010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-38.vrmesh",
+          "bytes": 34589,
+          "sha256": "7cde346d22a68c7c1101c3df9f7d6e5eda9104e2e02b47af0922f4ba20f2dcad",
+          "header16Hex": "76726d6573680000100000cd86000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-39.vrmesh",
+          "bytes": 393603,
+          "sha256": "4f78ac315402757803c33186c4d8bd0fb2f2c87ad63c3ddd63abfda71e88193b",
+          "header16Hex": "76726d65736800001000000f01060000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-4.jpg",
+          "bytes": 17982,
+          "sha256": "57ed735bf146276af5641d8cd301ef3fba8d092b5fd74bbf757f7050d2e66709",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-40.vrmesh",
+          "bytes": 5172128,
+          "sha256": "0df8b7d9651e43413eb713ec71a8b40c6dcbbd80cf31493f873d83a7cc4055d9",
+          "header16Hex": "76726d657368000010000034e94e0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-41.vrmesh",
+          "bytes": 26478803,
+          "sha256": "a77df219b46212c60a03861f5017abf9cea7aad1155cee9aef826990fcbe9135",
+          "header16Hex": "76726d65736800001000009f01940100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-5.jpg",
+          "bytes": 3944,
+          "sha256": "890fd905815738314159a27e76ff103dd128ce8be7aa209e6c26d219949eb9ce",
+          "header16Hex": "ffd8ffe000104a464946000101010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-6.jpg",
+          "bytes": 1483442,
+          "sha256": "7986b5362bbd03d0dbbcf07d707159bdb56d86c390a46be8fd431e3c07760c3b",
+          "header16Hex": "ffd8ffe101864578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-7.jpg",
+          "bytes": 138593,
+          "sha256": "f4039568fa3d7dff9ce1dd9b51f98027e521a3fc7e7400ebbae6d28a6cf1e440",
+          "header16Hex": "ffd8ffe000104a46494600010102001c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-8.JPG",
+          "bytes": 296012,
+          "sha256": "066b178745ef739afe187174c7941387d4b4d91ea175ea2a05e082a393563077",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校建筑3D\\3d66Model-1160697-files-9.jpg",
+          "bytes": 69297,
+          "sha256": "f33b50beb99bd723a3942a19a802e84b6e52360004bfd2be2af467fc627f23d7",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        }
+      ],
+      "license": "UNKNOWN - local package has no verified distribution grant",
+      "source": "3d66.com filename only; author, acquisition date and source grant unverified",
+      "readScope": "byte inventory only; MAX/VRmesh not opened in source software",
+      "published": false,
+      "copyOutputPath": null
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D",
+      "exists": true,
+      "formats": {
+        ".max": 1,
+        ".jpg": 93,
+        ".png": 5,
+        ".tif": 23,
+        ".tga": 1,
+        ".hdr": 1,
+        ".bmp": 2,
+        ".vrmesh": 52,
+        ".txt": 1
+      },
+      "fileCount": 179,
+      "bytes": 570936102,
+      "files": [
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66.com_23526227.max",
+          "bytes": 111598282,
+          "sha256": "98358c0786eb26a137135df10ca5ec4589b09c560cedadae3149182a0a16bed8",
+          "header16Hex": "d0cf11e0a1b11ae10000000000000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-001.jpg",
+          "bytes": 19009,
+          "sha256": "aed23f3cf9a81c5f83135c771df4505dadb6f777b808c44082ccd222448a7b1a",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-002.jpg",
+          "bytes": 25699,
+          "sha256": "7378d52b7907085268a52bbd0f7664de5451501b88442e7d1e9f5ee1915f8ba0",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-003.jpg",
+          "bytes": 38374,
+          "sha256": "b804c7a896fa51a15d3711dc64516743f7c5854e2650f0e26d8ad7b45b17a648",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-004.jpg",
+          "bytes": 15548,
+          "sha256": "cc7a9c78488d851b27504f6e1c41b3af116ec755383aa5255a113900699414eb",
+          "header16Hex": "ffd8ffe000104a464946000102010064"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-005.jpg",
+          "bytes": 449117,
+          "sha256": "1382f05de8b6bad930b1ef02833fc11c2d37dd795351ca57a3ddad6814037af1",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-006.jpg",
+          "bytes": 2308399,
+          "sha256": "1c161886a7f6200529e17c20f71f9a3013b6fc8df20692945dccde033d0b9137",
+          "header16Hex": "ffd8ffe10d984578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-007.jpg",
+          "bytes": 3550364,
+          "sha256": "f75a20014c2513660efc1a3adf044d9c0605f013cdd8256f0782cf5cb8b73412",
+          "header16Hex": "ffd8ffe115504578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-008.jpg",
+          "bytes": 13842,
+          "sha256": "8c8d17bbbae8cc78f648b48500f0cc044b5ebe9aac02f36be95ba60145cf38b9",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-009.jpg",
+          "bytes": 6189,
+          "sha256": "b5679ebcbf8e1cf2a8f15ee8dede8ac149f310492cadeadcfcfd3c80f56b6cdd",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-010.jpg",
+          "bytes": 38445,
+          "sha256": "b54cd1b2180b12b022eca5d0a0d1372f1042712de85323f8523c62e967cdc573",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-011.jpg",
+          "bytes": 25359,
+          "sha256": "00f6d54c884952427ca03665f6e79e8a6a9b9a48766b1758b1f14a51b5cfa13d",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-012.jpg",
+          "bytes": 4285,
+          "sha256": "d7b2c63d09df95325fea2e963b636dbf49ea134daf7e637d88ffabc0b3d2b456",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-013.jpg",
+          "bytes": 135271,
+          "sha256": "31762d1430a3831b5871d8e8228bc6ea3a297510b573bb211a6b0d8cf9d0c5c8",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-014.jpg",
+          "bytes": 4920,
+          "sha256": "f047d347719a24e2a2d95ad8187c7deee7f5f35a00799481f8bac873f9266d55",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-015.jpg",
+          "bytes": 19528,
+          "sha256": "6c2b70919a954afe6c45b75af77af1b701f99c168f0dce51221588a0f3d676be",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-016.jpg",
+          "bytes": 1114986,
+          "sha256": "181046e2be21df1d8eb5391386d41c52f8ae61b7aaa7914a9cb0170842cae70c",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-017.jpg",
+          "bytes": 1073623,
+          "sha256": "6b8f3fe5a66a37ab36c2466779002573cbc04c3f628404635f3461219928517f",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-018.jpg",
+          "bytes": 126224,
+          "sha256": "1a8b045ffcf5bc6b32963fd4dfa22d0df8174f8ec3f27945f0ff713f2b565dd7",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-019.jpg",
+          "bytes": 1636833,
+          "sha256": "45d53020e4b6b2b98463b11a40a56723f58c73ccf35ef2a4d170322cc78b93b2",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-020.jpg",
+          "bytes": 42123,
+          "sha256": "86848d3b252a6a38b825ec3bb69dce2ff286dc89b985d63eb081999a2f860892",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-021.jpg",
+          "bytes": 59685,
+          "sha256": "d6f1526bdda520cb6593da85d7605ed68bda64b11fd58d50015eafd9577db622",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-022.png",
+          "bytes": 3991502,
+          "sha256": "73093e58af6db7462dd8596eada83133bfc41512a7b55680b885de3e9bfedb21",
+          "header16Hex": "89504e470d0a1a0a0000000d49484452"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-023.png",
+          "bytes": 1323786,
+          "sha256": "c32df2da05447719e8c87d803a12576a8747ca7afcd9321a9a90e0f329e39c6e",
+          "header16Hex": "89504e470d0a1a0a0000000d49484452"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-024.png",
+          "bytes": 269466,
+          "sha256": "2a5144696f47c035890e6a57f928ee430e6c2a0c4954f2df6b10190956ec0783",
+          "header16Hex": "89504e470d0a1a0a0000000d49484452"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-025.png",
+          "bytes": 2796709,
+          "sha256": "c5f8ec1ff2bfe6d8c560ab08f88557618f54d6b19e1b8d2de0db3e6b882cb201",
+          "header16Hex": "89504e470d0a1a0a0000000d49484452"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-026.png",
+          "bytes": 4014576,
+          "sha256": "977db3c67d4e150b9f5ee3ef20d59d8f3b0145ea493ee1ea30a4ee7411c2e746",
+          "header16Hex": "89504e470d0a1a0a0000000d49484452"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-027.jpg",
+          "bytes": 2790491,
+          "sha256": "2e4aad8c59dd9c6d5be18ea4ac9a051c1c8c30ba07e75eedf882733297d8787a",
+          "header16Hex": "ffd8ffe10d894578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-028.jpg",
+          "bytes": 941133,
+          "sha256": "50624fd771910c63f4ae0f33ceef60fca4bbe8f441061d19ed11a497fcf9dd38",
+          "header16Hex": "ffd8ffe000104a464946000101010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-029.jpg",
+          "bytes": 2275332,
+          "sha256": "c762a93d2b9689a497e24ae757f81597f9e1b2c20a5d15ddcbfe0989ac63358f",
+          "header16Hex": "ffd8ffe10d824578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-030.jpg",
+          "bytes": 506618,
+          "sha256": "574d288c752b685a91a50d871e8159ac94b0f9102161d0f0d25f4598987b8183",
+          "header16Hex": "ffd8ffe000104a4649460001020100c8"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-031.jpg",
+          "bytes": 257030,
+          "sha256": "39cc6ccef431006a1b30212731ba14e71d01ea4edcb0d279cf95ae097e0bd21e",
+          "header16Hex": "ffd8ffe000104a46494600010201012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-032.tif",
+          "bytes": 85100,
+          "sha256": "a2859d67d0892fb26e2f2af43a3b9f559bc918702555269a3d4fc2ed0e5af332",
+          "header16Hex": "49492a00080000001000fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-033.tif",
+          "bytes": 55528,
+          "sha256": "fc343fd17ef9720cc9f9f9d6d6bf2fa160d8f6b9a4ad80bd26be08b43d2f90bb",
+          "header16Hex": "49492a00080000001400fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-034.tif",
+          "bytes": 49788,
+          "sha256": "97ad79ca94304b95e5a8fc705819545df2fcb4d7e07128840596561318e95f04",
+          "header16Hex": "49492a00080000001400fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-035.tif",
+          "bytes": 1227676,
+          "sha256": "96873f543430070da5aa82a1d3e2b2b877693fe41f677755367d7aecaa53511d",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-036.tif",
+          "bytes": 1695900,
+          "sha256": "f17cb66019f310507e23f8d88916d89f52795a2654039333b7aa0bdd824e9ea8",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-037.tif",
+          "bytes": 1244820,
+          "sha256": "bda116b37f231abc989390812345e4282cd4f9a2033ce9b86d516a6686a6b5e6",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-038.tif",
+          "bytes": 1408952,
+          "sha256": "d12333ea6bd5600e991f25d48bca707f995f995447752b0cbb71deb6c5618af7",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-039.tif",
+          "bytes": 1300852,
+          "sha256": "71dcfdd19f01ed97c1dd8f76e6e86e1009207afbeef12c1062a5e2e89132b7af",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-040.tif",
+          "bytes": 120248,
+          "sha256": "1cf2e7a494e2a20403d76dcfcc6d8960c677d5cd093c41399d554b5b5805b58b",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-041.tif",
+          "bytes": 1196088,
+          "sha256": "d07512eb3fde82dd41b8e511d1f628008b374cdc94bd66504fccbaad20f8e582",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-042.tif",
+          "bytes": 133544,
+          "sha256": "03ec180d71da2a6572b753b6a594888c1ee8195e0519b169559651d543a5a1ae",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-043.jpg",
+          "bytes": 1509,
+          "sha256": "afd867edcf7fc8789b77fb1ddcfc819833fd61c767d372e52e12f9e25802041f",
+          "header16Hex": "ffd8ffe000104a464946000101010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-044.jpg",
+          "bytes": 304012,
+          "sha256": "1bd698e3e3376e42596f9e0dd4e757ac50acdf9d3b12b8ff2114b9d72edb11d3",
+          "header16Hex": "ffd8ffe000104a46494600010201012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-045.jpg",
+          "bytes": 154046,
+          "sha256": "058465d452d72589dc4568e6303d104a67bf7f5492e8fdfbae5f8ede4b2e3967",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-046.jpg",
+          "bytes": 589895,
+          "sha256": "7af1dbbc04467c37f0ab5ddf8636f5803ea2177a62b7fcfe7324eddc5805a707",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-047.tif",
+          "bytes": 1843164,
+          "sha256": "54b35847e6f1c1579b568b01f1009d495b0884a3559dd7498511da7ffcefed0e",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-048.tif",
+          "bytes": 1383324,
+          "sha256": "185f203ea0bd0dfee8024fb54b3c8a413cb53c0724e34b3ffe34ecb0187ea957",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-049.tif",
+          "bytes": 1279728,
+          "sha256": "63c0dfe2bd6292db28dc111e1bdbdff328dba6671fb7c598ce8e84dfa2c68526",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-050.tif",
+          "bytes": 1981452,
+          "sha256": "682224cc21cbad05019e464e17225743df34fb7754111887ef741914c9b43902",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-051.tif",
+          "bytes": 1477196,
+          "sha256": "e833ddb1f0c8e5803c90257cb8832abdc1406f3ba365ddccf9023e2abb0e09ab",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-052.tif",
+          "bytes": 136408,
+          "sha256": "a3d4db4c129cba4c47ce3b897ff5ae4714284dafd1cc71a7d50f86ea9a4c6764",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-053.tif",
+          "bytes": 1090640,
+          "sha256": "55026b48781558d36367e450ee5170777bde242d94f5cc27c499e1dd656084ea",
+          "header16Hex": "49492a00080000001500fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-054.tga",
+          "bytes": 786476,
+          "sha256": "6e99eeaf5a239e3fbdc92ad1cebd71d78b30396bfb2bd56a39a8df602ba77486",
+          "header16Hex": "00000200000000000000000000020002"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-055.jpg",
+          "bytes": 30408,
+          "sha256": "f076e5544a0a1bbb9efa961a807dbfa525ae1e9de90d69dd13d1172ad020a90a",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-056.jpg",
+          "bytes": 60675,
+          "sha256": "aa1a8cb876b930d29aee4619da5b6b277cd2a61241b695f4da4d2c7804255af2",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-057.tif",
+          "bytes": 22864,
+          "sha256": "e56fed5cdfd63b6613520b5578c58c26abb48fd45e167592b7a886ac6f1d3918",
+          "header16Hex": "49492a00080000001400fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-058.TIF",
+          "bytes": 3151300,
+          "sha256": "45232b87c7eaa7c701e6eb07fde285a73cfa13d68372c037d802b184d80d51be",
+          "header16Hex": "49492a00080000001000fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-059.TIF",
+          "bytes": 3151264,
+          "sha256": "fc45971715f895e704bf06b5b585633dabf43b1e147a0485835b0bd500ffe3ce",
+          "header16Hex": "49492a00080000001000fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-060.hdr",
+          "bytes": 22115437,
+          "sha256": "22101c34e0b48b54a70c11266fa560687d864081f63e6ea0c43a7a724557e478",
+          "header16Hex": "233f52414449414e43450a23204d6164"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-061.jpg",
+          "bytes": 35939,
+          "sha256": "845685b09d5da568a7c5da5aa4d01ca8c7a2f733e0609184958b2332b411f7f1",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-062.tif",
+          "bytes": 46512,
+          "sha256": "19f6f04c25542b7dd01cba6e24401874f86b7285cad43ab973ce688993ea00b5",
+          "header16Hex": "49492a00080000001400fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-063.jpg",
+          "bytes": 71738,
+          "sha256": "bef61035fad0845829dbfd14d52bf45e5a6970e0a1a45f201bf0d3f7dff9a9db",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-064.JPG",
+          "bytes": 1423901,
+          "sha256": "a339580a5f7e0e99bcad98c9cf3a643f94080d03c6f3429a895aa45e9db39ee8",
+          "header16Hex": "ffd8ffe000104a46494600010201015e"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-065.jpg",
+          "bytes": 109278,
+          "sha256": "64f0e93193ddbbab18527712fdb318be094460335a2521507e62cb72d5841314",
+          "header16Hex": "ffd8ffe000104a464946000102010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-066.jpg",
+          "bytes": 700800,
+          "sha256": "a5a06c70716b16ecfd5ba2d57c91c90a791da32f15cfe4c421ca56b68796dd25",
+          "header16Hex": "ffd8ffe000104a4649460001020100f0"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-067.jpg",
+          "bytes": 566481,
+          "sha256": "710cc6b0d7113ce2edfa5dceb56414eb157aca488b36fbae94316301125574a7",
+          "header16Hex": "ffd8ffe000104a46494600010201012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-068.jpg",
+          "bytes": 76209,
+          "sha256": "b02c64f26c736de37df91117daf6c07c07a957459185b6f7990793addf98663d",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-069.jpg",
+          "bytes": 714388,
+          "sha256": "84798009ad1f0b32b23d3db74682f352107978352b4b6cbbc159ede181696bba",
+          "header16Hex": "ffd8ffe000104a464946000102000064"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-070.jpg",
+          "bytes": 211460,
+          "sha256": "9b5fece8217dc6a8bf80450149d64b484c5b24766be2c67d6f168a0dba098e72",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-071.jpg",
+          "bytes": 52643,
+          "sha256": "285f8185252712c11e837383815fdfe50c0237e3c87a1694ffed3c136a5e6a45",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-072.JPG",
+          "bytes": 132245,
+          "sha256": "b3e0a531100a98c715d1d62f49d86eecaf62b24f8b4abceaadfdc8d16789eb0f",
+          "header16Hex": "ffd8ffe000104a464946000100010060"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-073.jpg",
+          "bytes": 58929,
+          "sha256": "64e6438b40ed9b42222a2134e9ec7070ce6e60cf7973027423203f707f3bf755",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-074.jpg",
+          "bytes": 46875,
+          "sha256": "ba6bd49cf9bb538cef829eb73cb507b1ac8015c675cb2c5389990e58eddce56e",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-075.jpg",
+          "bytes": 46875,
+          "sha256": "ba6bd49cf9bb538cef829eb73cb507b1ac8015c675cb2c5389990e58eddce56e",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-076.jpg",
+          "bytes": 1892,
+          "sha256": "d2c6a9e2f4fdc3bc6a535daa1d305cda5c871a4206480d3fbde022dbd4ca1f60",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-077.jpg",
+          "bytes": 634391,
+          "sha256": "ca16762ac048838e4c1acad6646e366faf4c43c77b091b6760dc9d0ba11948e8",
+          "header16Hex": "ffd8ffe10e4e4578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-078.jpg",
+          "bytes": 5197014,
+          "sha256": "7d6a659c3b49c69503fbdd55c7e9a83d81092578693cb4c6764135664c028fcf",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-079.JPG",
+          "bytes": 107420,
+          "sha256": "9addbe1d090e16193463739a57e7509fa3c882c8e7d9c1632eb2ff9fd46e83c5",
+          "header16Hex": "ffd8ffe000104a46494600010201004b"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-080.jpg",
+          "bytes": 53615,
+          "sha256": "cbeb1fd76da12b4003e752ea65386df8e43cca7a61e8e446c731338fe0e3d1ea",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-081.jpg",
+          "bytes": 10292,
+          "sha256": "b9ea0b242ca086c6327745896bb215e28090c10f51e9803a4ec3e17cec022b3e",
+          "header16Hex": "ffd8ffe000104a464946000101010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-082.JPG",
+          "bytes": 108640,
+          "sha256": "a51fa83abb0a115abd99778d2a1cadee012614b6ec9c81b28e663d79d4830c9b",
+          "header16Hex": "ffd8ffe000104a46494600010202001c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-083.jpg",
+          "bytes": 71557,
+          "sha256": "82645794d273d2f80ff763405daee27d7bf1dd9f5eaa2ee139e54f582e15bc0e",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-084.tif",
+          "bytes": 25724,
+          "sha256": "3f4f31bc586de206c4b8c49930e9bb2528e99c089e5152c8a56b0fc74b49a065",
+          "header16Hex": "49492a00080000001400fe0004000100"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-085.jpg",
+          "bytes": 1075376,
+          "sha256": "d16595ddd978273d6ce82ab46bdccac65d3253cd4636ecea64386ab6156133e9",
+          "header16Hex": "ffd8ffe109da4578696600004d4d002a"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-086.bmp",
+          "bytes": 532664,
+          "sha256": "05f7cc125db9dbc629f14d7a7ba0d2fd7eee1f1846370574006fbac0c76f77a0",
+          "header16Hex": "424db820080000000000360000002800"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-087.BMP",
+          "bytes": 700856,
+          "sha256": "c42740737e72094686a63d7af51a54d341df3b1be93c8afd692d8a2aded2c414",
+          "header16Hex": "424db8b10a0000000000360000002800"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-088.jpg",
+          "bytes": 240978,
+          "sha256": "dae6c75781d861b34462448031a75bd7ae99e947544f9778b7d6f5859008ebb6",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-089.jpg",
+          "bytes": 50865,
+          "sha256": "a07c1a266ff77d3301d973861570a3e9ed1610536a3a3d4afac0212bee88b1bf",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-090.jpg",
+          "bytes": 395913,
+          "sha256": "ca0c3a5c1f263c415f0d87d93274cfadb914a5149815e1b9b3cc2dd68d6e4303",
+          "header16Hex": "ffd8ffe118b745786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-091.jpg",
+          "bytes": 466258,
+          "sha256": "7dc6c35f65a35c68bfa2214e2cc0f9a4897afff3472b1b4d9fd8feb0ed34d874",
+          "header16Hex": "ffd8ffe115e945786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-092.jpg",
+          "bytes": 406396,
+          "sha256": "072f7dff9766d4217d4acd15d9dc2edc1392959343e708aaa98bb2fef56368f4",
+          "header16Hex": "ffd8ffe1189645786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-093.jpg",
+          "bytes": 517559,
+          "sha256": "d9b5938aa0604a0606f299107cbd264072c76312be94487077c236e8bbc0c9f2",
+          "header16Hex": "ffd8ffe114fc45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-094.jpg",
+          "bytes": 612870,
+          "sha256": "0deb24639822408f3aad131b3ea2a66c3f99a16ba675950c7b307968c095b0ed",
+          "header16Hex": "ffd8ffe125be45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-095.jpg",
+          "bytes": 429217,
+          "sha256": "e2fe5403728af9a86ee806032a45b6c6063a72a8deeb666a78fa87cf5f99824d",
+          "header16Hex": "ffd8ffe1127c45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-096.jpg",
+          "bytes": 582636,
+          "sha256": "19a13dee9541599dfb83564433dc6d309bbbf83bfd32f5addb9c1220279df158",
+          "header16Hex": "ffd8ffe11d3045786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-097.jpg",
+          "bytes": 386400,
+          "sha256": "0635ec54db3b742af52d35d618e33bad84f68572ef8a1c8198580d44637b9653",
+          "header16Hex": "ffd8ffe1115845786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-098.jpg",
+          "bytes": 383813,
+          "sha256": "f94c0b766be782a626d821897303343350e55fa1b5c35493f4b38c05959c068b",
+          "header16Hex": "ffd8ffe1159d45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-099.jpg",
+          "bytes": 475194,
+          "sha256": "6abecbf90c7606a67425220b109fa5fd60835c4373d7016804a0ae93421841fd",
+          "header16Hex": "ffd8ffe1163545786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-100.jpg",
+          "bytes": 628758,
+          "sha256": "24e2073aa9088082f7ff5def5ad286103b07480c1009936c585c6a77f1954202",
+          "header16Hex": "ffd8ffe1228b45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-101.jpg",
+          "bytes": 418653,
+          "sha256": "cb7edb18877c6b6d08b9dff1b9644b7d14bef6a7954c07f85f44340a0c357af8",
+          "header16Hex": "ffd8ffe111de45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-102.jpg",
+          "bytes": 503528,
+          "sha256": "0c81af0d8f80002c9c8ecacf7577ef5b304d0de5588d49291bbc68e09067958a",
+          "header16Hex": "ffd8ffe11e4e45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-103.jpg",
+          "bytes": 150001,
+          "sha256": "56ec4b9a85461df825310c25b4a528cd4de3480c907b72cd93bc526874323fda",
+          "header16Hex": "ffd8ffe107a145786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-104.jpg",
+          "bytes": 642624,
+          "sha256": "b168265f4f424400fa3531386189369e35856e878ee948b53309384f14a77d99",
+          "header16Hex": "ffd8ffe122a845786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-105.jpg",
+          "bytes": 458311,
+          "sha256": "73ba5536685b80eaac0fb6f71ccaa2fe7b07ad616b467c867285e4080d036f3f",
+          "header16Hex": "ffd8ffe1176545786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-106.jpg",
+          "bytes": 630998,
+          "sha256": "81846c24e1f9db41a57871a625f07e47a6e8a6eca56676c7bdb6296aca708e51",
+          "header16Hex": "ffd8ffe1219145786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-107.jpg",
+          "bytes": 419494,
+          "sha256": "1536bc3128150e757ee2c38827ef7518eae0340132d22f6453bfd0e8c68a3d6c",
+          "header16Hex": "ffd8ffe1115345786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-108.jpg",
+          "bytes": 707075,
+          "sha256": "a6028e1b0a0e740a05bd1442cf85242e0fbed930a1a533256aaa0a8a7df979d6",
+          "header16Hex": "ffd8ffe1282045786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-109.jpg",
+          "bytes": 397069,
+          "sha256": "bb5420aba9fa8f3dc9c1ad6a7fdba265a834be6e04f195cdcf938ec2a52c5141",
+          "header16Hex": "ffd8ffe1128545786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-110.jpg",
+          "bytes": 640989,
+          "sha256": "12d0a1ab4ddd10b099c53d374f49b1a7d0a29f3ad1cdd69f79cafc789be5bf07",
+          "header16Hex": "ffd8ffe1210745786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-111.jpg",
+          "bytes": 551788,
+          "sha256": "07861d0d98997be8e796cb625655f273398506722a3f513075fb877bb1ce100f",
+          "header16Hex": "ffd8ffe1190845786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-112.jpg",
+          "bytes": 641978,
+          "sha256": "5f2ec40304a7a08f443625d86b8b9a7effe68d4f0687cae6471aec2333fdaab0",
+          "header16Hex": "ffd8ffe123b845786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-113.jpg",
+          "bytes": 470331,
+          "sha256": "2ce8e7d01954852d02fbc1ab0c84ad0d63b0d0658ff9020da1ce0cb4def8a1fe",
+          "header16Hex": "ffd8ffe1109b45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-114.jpg",
+          "bytes": 516605,
+          "sha256": "2d8fa1fb90f8c180d97200cc156ce4df946f93028512995d08424841dd1563bf",
+          "header16Hex": "ffd8ffe11fed45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-115.jpg",
+          "bytes": 380509,
+          "sha256": "d53dd39c4b17b20169fde174aaba32c677e83e28afc5c20d2e9641ce90d4064c",
+          "header16Hex": "ffd8ffe10ffd45786966000049492a00"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-116.jpg",
+          "bytes": 560277,
+          "sha256": "10af61ac4af7d7c60e18449c623066ac21694c5d0974b5d886e38b9fb81c8e93",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-117.jpg",
+          "bytes": 32745,
+          "sha256": "8b963c298f85ee0bba02588b8d420f211d8f24740e135b097a8500a693683404",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-118.jpg",
+          "bytes": 32745,
+          "sha256": "8b963c298f85ee0bba02588b8d420f211d8f24740e135b097a8500a693683404",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-119.jpg",
+          "bytes": 24201,
+          "sha256": "3db9cf88b12deb5009a7a45a3032957c530b40017d104f2350989746d3490dd3",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-120.jpg",
+          "bytes": 51126,
+          "sha256": "03f30aa360e06a20e1f22ad8d0217347fab155c97646048766f84f9221000f29",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-121.JPG",
+          "bytes": 22088,
+          "sha256": "1232e5175278adc18bbbdeeae00563489f9d98a8ea4a781c926f7bc74a2138dc",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-122.jpg",
+          "bytes": 766540,
+          "sha256": "192bfd5c45784994faa4985446719886c2c6ef75d8d81514f70b86c3767ca30d",
+          "header16Hex": "ffd8ffe000104a464946000102010048"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-123.jpg",
+          "bytes": 26837,
+          "sha256": "2a4737c6f69fea54a8bc2c9b9ccfa92ab2bb4fae22c9c2d01df40099efaf4316",
+          "header16Hex": "ffd8ffe000104a464946000101010096"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-124.jpg",
+          "bytes": 991116,
+          "sha256": "936906fd459f8d9505db7b87c6f0b3205c2fe1f1c8b5785e9f324c17c91354d5",
+          "header16Hex": "ffd8ffe000104a464946000101000001"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-125.jpg",
+          "bytes": 157530,
+          "sha256": "07d72b63ebf79dd7362acd0f4eeaa3babd20ad3a9679e24da4f68cb22a6b0438",
+          "header16Hex": "ffd8ffe000104a46494600010201012c"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-126.vrmesh",
+          "bytes": 127543,
+          "sha256": "2ee7f7f376b20b83dedad21c1103afd634f65a0e7e08340d9ee5fafde4065e4f",
+          "header16Hex": "76726d6573680000100000e7f1010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-127.vrmesh",
+          "bytes": 127265,
+          "sha256": "878560dd83a7949c63a10e4dd45fcb2ab9501d457ac8d4d890313b0bf5ee56f6",
+          "header16Hex": "76726d6573680000100000d1f0010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-128.vrmesh",
+          "bytes": 126611,
+          "sha256": "b50b1907672f568fe8afbb2cd132f657f8ca91e86b87ad5b44ece676cca1cd15",
+          "header16Hex": "76726d657368000010000043ee010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-129.vrmesh",
+          "bytes": 126618,
+          "sha256": "56d251d5a15a8be242cbd955898fd45f70bb835cdaec9dc311f2858d0b9e698d",
+          "header16Hex": "76726d65736800001000004aee010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-130.vrmesh",
+          "bytes": 132921,
+          "sha256": "97e5b67786842fe74eddbb90f916b7324a76779a83810366c0fcf45147d0db4a",
+          "header16Hex": "76726d6573680000100000e906020000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-131.vrmesh",
+          "bytes": 127436,
+          "sha256": "1457235a30714e4e3e25876c94be5300e8240dfee443f81fc20f51ccee809e55",
+          "header16Hex": "76726d65736800001000007cf1010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-132.vrmesh",
+          "bytes": 131458,
+          "sha256": "21db350a38549726e8b5efbd351c0555dbda645ef7f9c1821153a3923f6664f1",
+          "header16Hex": "76726d65736800001000003201020000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-133.vrmesh",
+          "bytes": 128673,
+          "sha256": "bc2f4a6e409a7fe690784f4a2c4ddca3e14a34f7f964f64dfc534b2387918e09",
+          "header16Hex": "76726d657368000010000051f6010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-134.vrmesh",
+          "bytes": 128230,
+          "sha256": "c1c0bbda984a1e7e34039613480b57dd3e0bb4a930848838b0903fb120978a08",
+          "header16Hex": "76726d657368000010000096f4010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-135.vrmesh",
+          "bytes": 130828,
+          "sha256": "656d7bb76360ca23a249e81cb791762c14d8a46536e9de65580c7669ee2207ac",
+          "header16Hex": "76726d6573680000100000bcfe010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-136.vrmesh",
+          "bytes": 138672,
+          "sha256": "51eb2b3a35e40a28971d16c7d5fd6055ebb6fd22b6e54e9f6f02c50bd5ce82f3",
+          "header16Hex": "76726d6573680000100000601d020000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-137.vrmesh",
+          "bytes": 128230,
+          "sha256": "1ccb0558eae2d8ddc7b61cfc996520d2c2a1fdba5af659330b6fec877a95a59e",
+          "header16Hex": "76726d657368000010000096f4010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-138.vrmesh",
+          "bytes": 127670,
+          "sha256": "49f297314d06fcc95fb7b8d87814607629054d7777a5fd72e9e373043c55b841",
+          "header16Hex": "76726d657368000010000066f2010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-139.vrmesh",
+          "bytes": 128316,
+          "sha256": "52fccba7b7634defe673e690e5b4125d3a45acdb51b45a240b94a5a5fa8b2d21",
+          "header16Hex": "76726d6573680000100000ecf4010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-140.vrmesh",
+          "bytes": 127175,
+          "sha256": "78c95c55a8a6853e5cf9212130da05357a2224d506c2043f85ac236e5b9f2353",
+          "header16Hex": "76726d657368000010000077f0010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-141.vrmesh",
+          "bytes": 127505,
+          "sha256": "cc51eb033cb159cac2c0238bbf3510f9bd8db3ed052937e125a2b21eaa616c5c",
+          "header16Hex": "76726d6573680000100000c1f1010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-142.vrmesh",
+          "bytes": 127003,
+          "sha256": "98cdf934b1019b210027d08a3410b46fdf3de21e4201798d6668261983786909",
+          "header16Hex": "76726d6573680000100000cbef010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-143.vrmesh",
+          "bytes": 130079,
+          "sha256": "685ca1fb1dee910e0059608a3e5866f892873e5ebf9976234ab2f7444ad74a6e",
+          "header16Hex": "76726d6573680000100000cffb010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-144.vrmesh",
+          "bytes": 129965,
+          "sha256": "b985f6a4b8bbcc5cfa6a3c642b0a3a2a72f4299be3bb2643f51ec7b7b612fc1a",
+          "header16Hex": "76726d65736800001000005dfb010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-145.vrmesh",
+          "bytes": 13547849,
+          "sha256": "53003c2b3f9894779c9a140a91451f24bc1cbb4b4c4749f371aebe5d8182fa62",
+          "header16Hex": "76726d6573680000100000f9b8ce0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-146.vrmesh",
+          "bytes": 41134072,
+          "sha256": "c29bd36b2b8bde7527fac3f3a5bba0d437dd458768e02a30e70585229163d29d",
+          "header16Hex": "7672617924a573020000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-147.vrmesh",
+          "bytes": 5721004,
+          "sha256": "b815d4f5cd45d8b0649ca8a2f6065d5fdebb07c0c8e8f2e2ab641edd5268fc8c",
+          "header16Hex": "76726179884a57000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-148.vrmesh",
+          "bytes": 4696112,
+          "sha256": "9aa152783c6dcbd8ef729a5ebf3471023ae76a4f022459a9d831a72facbdbf1c",
+          "header16Hex": "7672617954a747000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-149.vrmesh",
+          "bytes": 4323692,
+          "sha256": "fd13436d68e9ae9c14ae2769eeb37d45f7abab97f63aed48c3a6dfdcfb07ad81",
+          "header16Hex": "7672617990f841000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-150.vrmesh",
+          "bytes": 5752060,
+          "sha256": "71a9b70ea7da8bf6150fad19fea40ecece0bebbeed4f29c3f9fbc752c0605849",
+          "header16Hex": "76726179d8c357000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-151.vrmesh",
+          "bytes": 50449288,
+          "sha256": "ec7f05cd961cbaab3d40fbcedcf7634eab27787e864dce70c59b1196663720fc",
+          "header16Hex": "767261791cc101030000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-152.vrmesh",
+          "bytes": 9150991,
+          "sha256": "3d927bc87168e927c75d0ce3b63292ab0775e63e348ebbd9dfae187950b1200b",
+          "header16Hex": "76726d65736800001000005f9e8b0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-153.vrmesh",
+          "bytes": 51759024,
+          "sha256": "13a63fd4de86fe19eb776438953da5bba67aba4eae66a54cc0a6639992f353a1",
+          "header16Hex": "7672617978c215030000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-154.vrmesh",
+          "bytes": 41318348,
+          "sha256": "ed506004dbee780cfef414ce57f3ddb4c6fcc98c7762d7f429fce04d99d7cb13",
+          "header16Hex": "76726179687476020000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-155.vrmesh",
+          "bytes": 3826036,
+          "sha256": "1f94cf680177f33135b9e3cf42b95effd65a2ea2b27a66f69feddf14f0e4691e",
+          "header16Hex": "76726179bc603a000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-156.vrmesh",
+          "bytes": 5178057,
+          "sha256": "f519c3d31a9006bdd8be99e52a23eb89b2fe58811c65f3f773d0a74b6d6c6520",
+          "header16Hex": "76726d6573680000100000a1014f0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-157.vrmesh",
+          "bytes": 3612173,
+          "sha256": "079d71e801c1eb952ff5367f13eaa068dd4c51bc90d69555653276438d776dc7",
+          "header16Hex": "76726d6573680000100000c11c370000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-158.vrmesh",
+          "bytes": 3627420,
+          "sha256": "d223061377cbf2e8d4d40d64ddf68c787d07555bf59a5faeb27fc1b557ef8e0f",
+          "header16Hex": "76726d65736800001000002c58370000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-159.vrmesh",
+          "bytes": 3547341,
+          "sha256": "531869b539b927000015826e42e94fa3693ba63d1cffeef2ff0631d8fdef0a42",
+          "header16Hex": "76726d6573680000100000a51f360000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-160.vrmesh",
+          "bytes": 5189837,
+          "sha256": "120f9f7124dcc261667cf6c1b97385e2787ce8fb5a975509388d847d03a109cd",
+          "header16Hex": "76726d6573680000100000a52f4f0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-161.vrmesh",
+          "bytes": 3604268,
+          "sha256": "381f49eadcc233862fe194b80cabf4ff0a3ad36fb5ff4bcde4e9bf9d86fa2307",
+          "header16Hex": "76726d657368000010000004fe360000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-162.vrmesh",
+          "bytes": 3599341,
+          "sha256": "d918571625859511b7bc77c6afff2bc8114b8bbe9f46d9386ebda676d79d38af",
+          "header16Hex": "76726d6573680000100000a1ea360000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-163.vrmesh",
+          "bytes": 3675601,
+          "sha256": "217af36cd3484b26d53cc617d58daffcc7672e13bb451f08339ef0f0c2f09e94",
+          "header16Hex": "76726d6573680000100000a914380000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-164.vrmesh",
+          "bytes": 3570939,
+          "sha256": "1ec644f9ba85e3b85160410aaefae23e0ab82943d929698e386aa8e2d2cedc21",
+          "header16Hex": "76726d6573680000100000d37b360000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-165.vrmesh",
+          "bytes": 4594368,
+          "sha256": "2e5f483f3be79979328b9ca4de83dbfcf061b274d1903fdd15c2b713c1010fe9",
+          "header16Hex": "76726d65736800001000009819460000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-166.vrmesh",
+          "bytes": 3481671,
+          "sha256": "7a004745a53c86b16388d82d07b30eca0b765074095622217112232407291aa0",
+          "header16Hex": "76726d6573680000100000fb1e350000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-167.vrmesh",
+          "bytes": 3609730,
+          "sha256": "9d7aff3483f55194a3ed3398df75911ae1d7a82af18efbc5de3d77c311c71223",
+          "header16Hex": "76726d65736800001000005a13370000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-168.vrmesh",
+          "bytes": 5139565,
+          "sha256": "9352db92426f58b935ea251c294c744c8c02aa8b8444fd17db0261f541f50bdc",
+          "header16Hex": "76726d6573680000100000456b4e0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-169.vrmesh",
+          "bytes": 4065668,
+          "sha256": "eeaa9bc73b04fc67e0cb988a0eb93d041157c19da0b2e9de153465af39d22df5",
+          "header16Hex": "76726179a8083e000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-170.vrmesh",
+          "bytes": 4494304,
+          "sha256": "3447c8b9899318aeb5f681488b8dbe23a0eb51b42ea9efc26afcdedba9b05fc0",
+          "header16Hex": "76726179289344000000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-171.vrmesh",
+          "bytes": 128012,
+          "sha256": "5d432e834c4f5ea74d15399b72772949c1b8fd549f46c978bd8e56eabdb258d3",
+          "header16Hex": "76726d6573680000100000bcf3010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-172.vrmesh",
+          "bytes": 141283,
+          "sha256": "e3d3d1803120baef23f0f6690e0bc66c808c4e7ccbba1033c1e2c7ebe7ebec32",
+          "header16Hex": "76726d65736800001000009327020000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-173.vrmesh",
+          "bytes": 129374,
+          "sha256": "7f40f05aaaafc81c8e5391670a75ab2c240173ec99d6abf8615910b28598a349",
+          "header16Hex": "76726d65736800001000000ef9010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-174.vrmesh",
+          "bytes": 128422,
+          "sha256": "31b0dd1abeee830bd8f1b57d247185a0a1072a7551fe867ede12d95e44f8c24e",
+          "header16Hex": "76726d657368000010000056f5010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-175.vrmesh",
+          "bytes": 93914,
+          "sha256": "5ccf92935458ab6a08f767256d8be8c6e091e1d395e985f56acaa3a1899f0ca0",
+          "header16Hex": "76726d65736800001000008a6e010000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-176.vrmesh",
+          "bytes": 49978820,
+          "sha256": "46b673714fff84e3ed8b363fa356fbbd9268b866ad4ce2808c0b2893b1a86570",
+          "header16Hex": "767261799496fa020000000008000000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\3d66Model-23526227-files-177.vrmesh",
+          "bytes": 7078518,
+          "sha256": "b2efff9752fa40c5b0a1d321c2656f1067a2893ef4cb51f8e99ad3595ffa1fa1",
+          "header16Hex": "76726d65736800001000000a006c0000"
+        },
+        {
+          "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\学校多建筑3D\\MaxSenceData.txt",
+          "bytes": 31,
+          "sha256": "eb223e003c7c7c6dfeea092f84a6b7514977874b214c32e1ea74ab3049118642",
+          "header16Hex": "2328312c302c312c302c302c302c302c"
+        }
+      ],
+      "license": "UNKNOWN - local package has no verified distribution grant",
+      "source": "3d66.com filename only; author, acquisition date and source grant unverified",
+      "readScope": "byte inventory only; MAX/VRmesh not opened in source software",
+      "published": false,
+      "copyOutputPath": null
+    }
+  ],
+  "referenceLicenses": [
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\building-kit\\原始解压\\License.txt",
+      "sha256": "60a07f9108f5a3fc5f9429fd1faa5b168c05cc085354f78ed48180ef32ec6209",
+      "text": "\t\n\n\tBuilding Kit (1.0)\n\n\tCreated/distributed by Kenney (www.kenney.nl)\n\tCreation date: 29-03-2025 11:38\n\t\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tYou can use this content for personal, educational, and commercial purposes.\n\n\tSupport by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)\n\n\t\t\t------------------------------\n\n\t• Website : www.kenney.nl\n\t• Donate  : www.kenney.nl/donate\n\n\t• Patreon : patreon.com/kenney\n\t\n\tFollow on social media for updates:\n\n\t• Twitter:   twitter.com/KenneyNL\n\t• Instagram: instagram.com/kenney_nl\n\t• Mastodon:  mastodon.gamedev.place/@kenney",
+      "reviewScope": "current local license file; B03 uses no package geometry"
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\city-kit-commercial\\原始解压\\License.txt",
+      "sha256": "c38cee408d022e57e44e49f1cd655c2fe0dc881a07b881276b795215cdc0de69",
+      "text": "\t\n\n\tCity Kit Commercial (2.1)\n\n\tCreated/distributed by Kenney (www.kenney.nl)\n\tCreation date: 21-07-2025 18:16\n\t\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tYou can use this content for personal, educational, and commercial purposes.\n\n\tSupport by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)\n\n\t\t\t------------------------------\n\n\t• Website : www.kenney.nl\n\t• Donate  : www.kenney.nl/donate\n\n\t• Patreon : patreon.com/kenney\n\t\n\tFollow on social media for updates:\n\n\t• Twitter:\t twitter.com/KenneyNL\n\t• BlueSky:\t kenney.bsky.social\n\t• Instagram: instagram.com/kenney_nl",
+      "reviewScope": "current local license file; B03 uses no package geometry"
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\city-kit-roads\\原始解压\\License.txt",
+      "sha256": "87b9404aef5dff6162ae1e53a27bc6427fe1cdd2e2dd5ec05fdd25f17da10498",
+      "text": "\t\n\n\tCity Kit Roads (2.1)\n\n\tCreated/distributed by Kenney (www.kenney.nl)\n\tCreation date: 18-08-2026 10:43\n\t\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tYou can use this content for personal, educational, and commercial purposes.\n\n\tSupport by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)\n\n\t\t\t------------------------------\n\n\t• Website : www.kenney.nl\n\t• Donate  : www.kenney.nl/donate\n\n\t• Patreon : patreon.com/kenney\n\t\n\tFollow on social media for updates:\n\n\t• Twitter:\t twitter.com/KenneyNL\n\t• BlueSky:\t kenney.bsky.social\n\t• Instagram: instagram.com/kenney_nl",
+      "reviewScope": "current local license file; B03 uses no package geometry"
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\furniture-kit\\原始解压\\License.txt",
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "text": "\t\n\n\tFurniture Kit (2.0)\n\n\tCreated/distributed by Kenney (www.kenney.nl)\n\tCreation date: 20-10-2018 16:21\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport us by crediting Kenney or www.kenney.nl (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tDonate:   http://support.kenney.nl\n\tRequest:  http://request.kenney.nl\n\tPatreon:  http://patreon.com/kenney/\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KenneyNL",
+      "reviewScope": "current local license file; B03 uses no package geometry"
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\nature-kit\\原始解压\\License.txt",
+      "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+      "text": "\t\n\n\tNature Kit (2.1)\n\n\tCreated/distributed by Kenney (www.kenney.nl)\n\tCreation date: 29-04-2020 01:02\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport us by crediting Kenney or www.kenney.nl (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tDonate:   http://support.kenney.nl\n\tRequest:  http://request.kenney.nl\n\tPatreon:  http://patreon.com/kenney/\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KenneyNL",
+      "reviewScope": "current local license file; B03 uses no package geometry"
+    }
+  ],
+  "currentCandidateReads": [
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\furniture-kit\\原始解压\\Models\\GLTF format\\bedBunk.glb",
+      "sha256": "a3eccbc4a04340dd84878d959e15eede76f517fb8d4de6862ca46877c88d764e",
+      "bytes": 40784,
+      "glbHeaderAndJson": "PASS",
+      "extensionsUsed": [
+        "KHR_materials_unlit"
+      ],
+      "extensionsRequired": [],
+      "externalImageUris": [],
+      "meshes": 5,
+      "nodes": 5,
+      "notRenderedInB03": true,
+      "published": false
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\furniture-kit\\原始解压\\Models\\GLTF format\\desk.glb",
+      "sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+      "bytes": 15048,
+      "glbHeaderAndJson": "PASS",
+      "extensionsUsed": [
+        "KHR_materials_unlit"
+      ],
+      "extensionsRequired": [],
+      "externalImageUris": [],
+      "meshes": 2,
+      "nodes": 2,
+      "notRenderedInB03": true,
+      "published": false
+    },
+    {
+      "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\三维模型\\building-kit\\原始解压\\Models\\GLB format\\door-rotate-square-a.glb",
+      "sha256": "12675fba53441fb556772f8dadbfcb88bb2deb8c6d0e3d47f0c86bc364721918",
+      "bytes": 25616,
+      "glbHeaderAndJson": "PASS",
+      "extensionsUsed": [
+        "KHR_texture_transform"
+      ],
+      "extensionsRequired": [],
+      "externalImageUris": [
+        "Textures/colormap.png"
+      ],
+      "meshes": 2,
+      "nodes": 3,
+      "notRenderedInB03": true,
+      "published": false
+    }
+  ],
+  "historical684GlbCheck": "reference only; not a current render or performance result",
+  "allowedSourceCopies": [],
+  "publicExternalModels": [],
+  "allowedOutputs": [
+    "frontend/public/campus/manifest.json",
+    "frontend/public/campus/THIRD-PARTY-NOTICES.txt"
+  ],
+  "parametricAuthor": "Graduation_Project B03 implementation; generated from requirements, not extracted source meshes",
+  "distribution": "Project owner may deliver original project geometry; keep Three.js MIT notice with bundled library",
+  "conversionToolsUsed": [],
+  "sourceFilesModified": false,
+  "historicalDownloadManifest": {
+    "path": "D:\\快速访问\\Desktop\\毕业项目文件\\文件材料\\校园参考素材\\来源与许可\\下载与检查清单.json",
+    "sha256": "4dd3b88709ed421a96254213b64d913e14b1d0693e9ba4ae47952827c8472643",
+    "readAsHistoryOnly": true
+  },
+  "parametricOutputs": [
+    {
+      "path": "frontend\\src\\campus\\CameraTransition.ts",
+      "sha256": "4b9999d649e1c7836a1e6d2bb7cc26dfca3795db818480283743733c1c96d579",
+      "bytes": 1513,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\CampusRenderer.ts",
+      "sha256": "74a42611521698c1d7ccf6d23afc22e8f376d1594638a72922f29011b0d76c26",
+      "bytes": 19064,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\DormitoryExterior.ts",
+      "sha256": "c97de981ecb2e3ca9af4857981e531205ad1c4f7438dee25dd86904be16371be",
+      "bytes": 2575,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\GeometryKit.ts",
+      "sha256": "21deb4130c76da2643a4def408fd33957f578ff6b69839a0b22b41a13ad0f125",
+      "bytes": 3091,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\LoadCoordinator.ts",
+      "sha256": "8cbbac34f31238509e5e2e04df7f602f17dfedce7c2bc8ea3bd5fabe82301142",
+      "bytes": 1526,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\observation.ts",
+      "sha256": "9dfdb1f47a9c68b4f6b53620bf28a81c17ae7b2b87c1a2b524f30b53fe0a05bb",
+      "bytes": 3565,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\ResourceCache.ts",
+      "sha256": "97c54824e9c4f21611f4a3910e2246d5dd136047a12468c15474f089f111a549",
+      "bytes": 2248,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\types.ts",
+      "sha256": "93ee423a25b720867bd7dd5cf58844148dc1dbff4cf6cdb5556ea628ebe228a8",
+      "bytes": 1401,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\templates\\DormCommon.ts",
+      "sha256": "5171a54fde72017e06d4684b81ab03ba88585809e3f8d7aadf262a0300efd28e",
+      "bytes": 2049,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\templates\\DormFloor.ts",
+      "sha256": "31d2e3b4dacb6160a24248b3d0897dc9209e022986a2847d8ce7402306828f4b",
+      "bytes": 5316,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\src\\campus\\templates\\DormRoom.ts",
+      "sha256": "9e19c562dbf651fe925b8b7142fa253ba8f3ca9fbc296fd576c025a5333b12ad",
+      "bytes": 4428,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\public\\campus\\manifest.json",
+      "sha256": "aad193d7f81238afab39831dbb8dfbb8b27f7f23b62698db45e85e8b29f83054",
+      "bytes": 8199,
+      "contentVersion": "b03-parametric-v1",
+      "license": "project-owner original source; Three dependency retains MIT notice"
+    },
+    {
+      "path": "frontend\\public\\campus\\THIRD-PARTY-NOTICES.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081,
+      "contentVersion": "b03-parametric-v1",
+      "license": "MIT notice from installed Three.js 0.186.1"
+    }
+  ],
+  "B07": {
+    "contentVersion": "b07-campus-v1",
+    "configVersion": "campus-v1",
+    "route": "project-authored parametric geometry",
+    "author": "Graduation_Project implementation from the approved demonstration campus requirements",
+    "externalModelCopies": [],
+    "originalMaterialsDistributed": false,
+    "historicalOutputs": "Top-level parametricOutputs retain their B03 point-in-time hashes; current B07 hashes follow.",
+    "license": "Project-owner original source; installed Three.js MIT notice retained. No new third-party model resource.",
+    "outputs": [
+      {
+        "path": "frontend/src/campus/CameraTransition.ts",
+        "bytes": 1513,
+        "sha256": "4b9999d649e1c7836a1e6d2bb7cc26dfca3795db818480283743733c1c96d579"
+      },
+      {
+        "path": "frontend/src/campus/CampusLayout.ts",
+        "bytes": 819,
+        "sha256": "55da9b53d13aaf0c9064638b9a846a14b88862002ec397e0f543f3b74feb0b60"
+      },
+      {
+        "path": "frontend/src/campus/CampusRenderer.ts",
+        "bytes": 25231,
+        "sha256": "34396406b553b231687bde3ad138d9d81cf3fb0eff6e5a110cf90f43c79a6fcb"
+      },
+      {
+        "path": "frontend/src/campus/DormitoryExterior.ts",
+        "bytes": 2768,
+        "sha256": "01dbe44fb5c9e528e91e48d96fe78c22354fb09a89b6919c46bd019b7d7c7d82"
+      },
+      {
+        "path": "frontend/src/campus/GeometryKit.ts",
+        "bytes": 3091,
+        "sha256": "21deb4130c76da2643a4def408fd33957f578ff6b69839a0b22b41a13ad0f125"
+      },
+      {
+        "path": "frontend/src/campus/LoadCoordinator.ts",
+        "bytes": 1526,
+        "sha256": "8cbbac34f31238509e5e2e04df7f602f17dfedce7c2bc8ea3bd5fabe82301142"
+      },
+      {
+        "path": "frontend/src/campus/observation.ts",
+        "bytes": 3565,
+        "sha256": "9dfdb1f47a9c68b4f6b53620bf28a81c17ae7b2b87c1a2b524f30b53fe0a05bb"
+      },
+      {
+        "path": "frontend/src/campus/ResourceCache.ts",
+        "bytes": 2248,
+        "sha256": "97c54824e9c4f21611f4a3910e2246d5dd136047a12468c15474f089f111a549"
+      },
+      {
+        "path": "frontend/src/campus/templates/CafeteriaBuilding.ts",
+        "bytes": 222,
+        "sha256": "5f9f1c61b37d0f406336467c688fe836d353af675c84f94d7fceaa2e9033cc7b"
+      },
+      {
+        "path": "frontend/src/campus/templates/CafeteriaFloor.ts",
+        "bytes": 1104,
+        "sha256": "c6a2cf93a0ed9041955cefee193b7fde5a7fe86f73ec42d8eedcff9870cc74e2"
+      },
+      {
+        "path": "frontend/src/campus/templates/Classroom.ts",
+        "bytes": 973,
+        "sha256": "60199c59046b17d8424145805c67456465bdf02bcb1b9bd9fbae05d93d76962c"
+      },
+      {
+        "path": "frontend/src/campus/templates/DormCommon.ts",
+        "bytes": 2049,
+        "sha256": "5171a54fde72017e06d4684b81ab03ba88585809e3f8d7aadf262a0300efd28e"
+      },
+      {
+        "path": "frontend/src/campus/templates/DormFloor.ts",
+        "bytes": 9361,
+        "sha256": "7f6d45b21a4a893413bb7e2a719fa91100a427a3c4875b84353b9321c70742cd"
+      },
+      {
+        "path": "frontend/src/campus/templates/DormRoom.ts",
+        "bytes": 4428,
+        "sha256": "9e19c562dbf651fe925b8b7142fa253ba8f3ca9fbc296fd576c025a5333b12ad"
+      },
+      {
+        "path": "frontend/src/campus/templates/GymBuilding.ts",
+        "bytes": 2791,
+        "sha256": "3bbdb9965e8f5cf9fcc83868e78bf92f9ade84e192ebb03b3c0f4b028e6e1963"
+      },
+      {
+        "path": "frontend/src/campus/templates/Office.ts",
+        "bytes": 651,
+        "sha256": "5ca996e6adfed5094681c37be46caddbbd3f0a8c4d94a01c781671bd74a18725"
+      },
+      {
+        "path": "frontend/src/campus/templates/TeachingBuilding.ts",
+        "bytes": 1271,
+        "sha256": "259a05c300560b07f1f45d86cd4d04a5a80f0c427eb02216575418410f5dc56b"
+      },
+      {
+        "path": "frontend/src/campus/templates/TeachingCommon.ts",
+        "bytes": 2500,
+        "sha256": "04181b8f7641413d4efb62dbec6d223a31ed6040243afdcfc4f00ba7e2508ec2"
+      },
+      {
+        "path": "frontend/src/campus/three-r186.d.ts",
+        "bytes": 4358,
+        "sha256": "acb762d78aec997cb42b900fabc365e569cad249c16a37e1543c25f8ee9e0859"
+      },
+      {
+        "path": "frontend/src/campus/types.ts",
+        "bytes": 1631,
+        "sha256": "08178e4dbbf4118544cbbecb4494d85d2af482403c01c0f3d50b265a0576bfab"
+      },
+      {
+        "path": "frontend/public/campus/manifest.json",
+        "bytes": 210328,
+        "sha256": "d190b851fbe9faccb70954d81e061b486ea520057564c074085a576dc569e7a7"
+      },
+      {
+        "path": "frontend/public/campus/THIRD-PARTY-NOTICES.txt",
+        "bytes": 1081,
+        "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+      }
+    ]
+  }
+}

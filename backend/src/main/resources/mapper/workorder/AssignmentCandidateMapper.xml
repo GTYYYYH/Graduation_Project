@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wzbc.maintenance.workorder.mapper.AssignmentCandidateMapper">
+  <select id="metrics" resultType="cn.wzbc.maintenance.workorder.mapper.AssignmentCandidateMapper$Metrics">
+    WITH per_order AS (
+      SELECT w.id,w.assigned_technician_id,
+        CASE WHEN w.status='PENDING_ACCEPT' THEN 1 ELSE 0 END AS W,
+        CASE WHEN w.status='IN_PROGRESS' AND NOT (w.current_round&gt;1 AND prev.acceptance_passed=0) THEN 1 ELSE 0 END AS I,
+        CASE WHEN w.status='IN_PROGRESS' AND w.current_round&gt;1 AND prev.acceptance_passed=0 THEN 1 ELSE 0 END AS R,
+        CASE WHEN w.status='PENDING_ACCEPTANCE' THEN 1 ELSE 0 END AS A
+      FROM work_order w
+      LEFT JOIN repair_round prev ON prev.work_order_id=w.id AND prev.round_no=w.current_round-1
+      WHERE w.status IN ('PENDING_ACCEPT','IN_PROGRESS','PENDING_ACCEPTANCE')
+    ), loads AS (
+      SELECT assigned_technician_id AS technician_id,SUM(W) AS W,SUM(I) AS I,SUM(R) AS R,SUM(A) AS A
+      FROM per_order GROUP BY assigned_technician_id
+    ), completions AS (
+      SELECT accepted_technician_id AS technician_id,COUNT(*) AS D FROM work_order
+      WHERE status='COMPLETED' AND completed_at&gt;=#{start} AND completed_at&lt;#{end}
+      GROUP BY accepted_technician_id
+    ), recent AS (
+      SELECT technician_id,MAX(assigned_at) AS last_assigned_at FROM work_order_assignment GROUP BY technician_id
+    )
+    SELECT u.id,COALESCE(l.W,0) AS W,COALESCE(l.I,0) AS I,COALESCE(l.R,0) AS R,COALESCE(l.A,0) AS A,
+      COALESCE(c.D,0) AS today_completed,r.last_assigned_at
+    FROM user_account u LEFT JOIN loads l ON l.technician_id=u.id
+      LEFT JOIN completions c ON c.technician_id=u.id LEFT JOIN recent r ON r.technician_id=u.id
+    WHERE u.role='TECHNICIAN'
+  </select>
+</mapper>

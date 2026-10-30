@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: campus-maintenance
+  config:
+    import: "${CAMPUS_LOCAL_CONFIG}"
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  servlet:
+    multipart:
+      max-file-size: 5000000B
+      max-request-size: 26000000B
+  datasource:
+    hikari:
+      maximum-pool-size: 8
+      connection-timeout: 5000
+  sql:
+    init:
+      mode: never
+  flyway:
+    clean-disabled: true
+    validate-on-migrate: true
+    baseline-on-migrate: false
+server:
+  address: 127.0.0.1
+  port: 8080
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-binding-errors: never
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: assign_id

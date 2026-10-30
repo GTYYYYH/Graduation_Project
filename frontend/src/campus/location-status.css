@@ -1,0 +1,21 @@
+/* One palette for projected markers, directory cards and the legend. */
+.campus-location-status {
+  --campus-status-border: #637c93;
+  --campus-status-background: #f2f6fa;
+  --campus-status-text: #28465a;
+}
+.campus-location-status.FAULT_PROCESSING {
+  --campus-status-border: #b94b4b;
+  --campus-status-background: #fff4f3;
+  --campus-status-text: #913c3c;
+}
+.campus-location-status.PENDING_ACCEPTANCE {
+  --campus-status-border: #3981b6;
+  --campus-status-background: #eef7ff;
+  --campus-status-text: #245d87;
+}
+.campus-location-status.NEEDS_SUPPLEMENT {
+  --campus-status-border: #bc852d;
+  --campus-status-background: #fff9e9;
+  --campus-status-text: #785113;
+}

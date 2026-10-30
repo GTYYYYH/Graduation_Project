@@ -1,0 +1,43 @@
+<script setup lang="ts">
+import { computed, reactive, shallowRef, watch } from 'vue'
+import { onBeforeRouteLeave, useRoute, useRouter } from 'vue-router'
+import { fetchCatalog } from '../../api/account'
+import { allowedFacilities, facilityNames, fetchEquipmentDetail } from '../../api/equipment'
+import { useBusinessRead } from '../../composables/useBusinessRead'
+import { useBusinessAction } from '../../composables/useBusinessAction'
+import { useBusinessConfirmation } from '../../composables/useBusinessConfirmation'
+import InlineConfirmation from '../../components/common/InlineConfirmation.vue'
+const route = useRoute(), router = useRouter(), id = computed(() => typeof route.params.id === 'string' ? route.params.id : '')
+const confirmation = useBusinessConfirmation()
+const fields = reactive({ name: '', addressText: '', facilityType: '', reason: '' }), locationId = shallowRef(''), buildingId = shallowRef(''), floorId = shallowRef(''), version = shallowRef(0), initialized = shallowRef(''), dirty = shallowRef(false)
+const { data: catalog, loading: catalogLoading, message: catalogMessage, load: loadCatalog } = useBusinessRead(fetchCatalog)
+function clearInputs() { Object.assign(fields, { name: '', addressText: '', facilityType: '', reason: '' }); locationId.value = ''; initialized.value = '' }
+const { data, loading, message, stale, lastSuccessAt, clear, load } = useBusinessRead(() => fetchEquipmentDetail(id.value), clearInputs)
+const reviewReturn = computed(() => typeof route.query.requestId === 'string' && /^[1-9][0-9]{0,18}$/.test(route.query.requestId) ? { path: `/admin/requests/${route.query.requestId}`, query: { returnTo: typeof route.query.returnTo === 'string' ? route.query.returnTo : '/admin/requests' } } : null)
+const action = useBusinessAction('EQUIPMENT_SAVE', () => id.value || 'NEW', async receipt => { dirty.value = false; if (reviewReturn.value) await router.push({ ...reviewReturn.value, query: { ...reviewReturn.value.query, createdEquipmentId: receipt.resourceId } }); else await router.push(`/equipment/${receipt.resourceId}`) })
+const floors = computed(() => catalog.value?.floors.filter(f => f.buildingId === buildingId.value) ?? []), locations = computed(() => catalog.value?.locations.filter(l => l.floorId === floorId.value) ?? []), selected = computed(() => catalog.value?.locations.find(l => l.id === locationId.value)), types = computed(() => selected.value?.reportable ? allowedFacilities[selected.value.use] ?? [] : [])
+function align() { const l = catalog.value?.locations.find(l => l.id === locationId.value), f = catalog.value?.floors.find(f => f.id === l?.floorId); if (f) { buildingId.value = f.buildingId; floorId.value = f.id } else if (!buildingId.value) { buildingId.value = catalog.value?.buildings[0]?.id ?? ''; floorId.value = floors.value[0]?.id ?? '' } }
+function initialize() {
+  if (!catalog.value || (id.value && !data.value) || initialized.value === (id.value || 'NEW')) return
+  if (data.value) { const e = data.value.equipment; Object.assign(fields, { name: e.name, addressText: e.addressText, facilityType: e.facilityType, reason: '' }); locationId.value = e.locationId ?? ''; version.value = e.version }
+  else locationId.value = typeof route.query.locationId === 'string' ? route.query.locationId : ''
+  if (action.pending.value) { const p = action.pending.value.payload; for (const key of ['name', 'addressText', 'facilityType', 'reason'] as const) fields[key] = typeof p[key] === 'string' ? p[key] : ''; locationId.value = String(p.locationId ?? ''); version.value = typeof p.version === 'number' ? p.version : 0 }
+  align(); initialized.value = id.value || 'NEW'; dirty.value = false
+}
+watch([catalog, data], initialize)
+watch(() => route.params.id, () => { initialized.value = ''; clearInputs(); clear(); if (id.value) void load(); void loadCatalog() }, { immediate: true })
+watch([fields, locationId], () => { if (initialized.value) dirty.value = true }, { deep: true })
+function chooseBuilding(value: string) { buildingId.value = value; floorId.value = floors.value[0]?.id ?? ''; locationId.value = '' }
+function chooseFloor(value: string) { floorId.value = value; locationId.value = '' }
+const canSave = computed(() => !!initialized.value && !!selected.value?.reportable && types.value.includes(fields.facilityType) && (!id.value || (!!data.value && version.value === data.value.equipment.version && !stale.value)) && !action.pending.value && !action.busy.value)
+async function submit() {
+  if (!canSave.value || !fields.name.trim() || !fields.addressText.trim()) return
+  if (id.value && locationId.value !== (data.value?.equipment.locationId ?? '') && (!fields.reason.trim() || data.value?.equipment.currentWorkOrder)) return
+  const operationId = crypto.randomUUID(), body = { operationId, ...(id.value ? { version: version.value } : {}), ...fields, locationId: locationId.value, reason: fields.reason.trim() ? fields.reason : null }
+  await action.submit({ operationId, operation: id.value ? 'EQUIPMENT_UPDATE' : 'EQUIPMENT_CREATE', path: id.value ? `/api/equipment/${id.value}` : '/api/equipment', method: id.value ? 'PATCH' : 'POST', payload: body, resourceType: 'EQUIPMENT', ...(id.value ? { resourceId: id.value } : {}), phase: 'SENDING' })
+}
+const value = (e: Event) => (e.target as HTMLSelectElement).value
+onBeforeRouteLeave(() => (!dirty.value && !action.pending.value) || confirmation.ask('资料尚未确认保存。离开将丢弃未提交编辑，待确认操作仍在同次登录中保留，是否离开？'))
+</script>
+<template><InlineConfirmation :message="confirmation.message.value" @answer="confirmation.answer" /><div class="page-heading"><h1>{{ id ? '维护设备资料' : '补录范围内设备' }}</h1><RouterLink v-if="reviewReturn" :to="reviewReturn">返回原申请审核</RouterLink><RouterLink v-else to="/equipment">返回台账</RouterLink></div><section class="card"><p v-if="catalogLoading || loading" role="status">正在读取资料…</p><p v-if="catalogMessage" class="notice" role="alert">{{ catalogMessage }} <button class="text-button" @click="loadCatalog">重试目录</button></p><p v-if="message" class="notice" role="alert">{{ message }} {{ stale ? `上次成功 ${lastSuccessAt}，资料可能过期。` : '' }}</p><p v-if="action.message.value" class="notice" role="status">{{ action.message.value }}</p><p v-if="data">编号：<strong>{{ data.equipment.equipmentNo }}</strong> · {{ data.equipment.enabled ? '启用' : '停用' }}。资料保存不改变启停用。</p><p v-if="data?.equipment.currentWorkOrder" class="notice">设备有未完结工单，不能移动位置。名称和资料可维护，旧工单原文与位置保留。</p><form v-if="initialized" @submit.prevent="submit"><fieldset :disabled="action.busy.value || !!action.pending.value" class="form-fields"><label>设备名称<input v-model="fields.name" required maxlength="100"></label><div class="form-grid"><label>楼栋<select :value="buildingId" :disabled="!!data?.equipment.currentWorkOrder" @change="chooseBuilding(value($event))"><option v-for="b in catalog?.buildings" :key="b.id" :value="b.id">{{ b.name }}</option></select></label><label>楼层<select :value="floorId" :disabled="!!data?.equipment.currentWorkOrder" @change="chooseFloor(value($event))"><option v-for="f in floors" :key="f.id" :value="f.id">{{ f.name }}</option></select></label><label>设备房间／区域<select v-model="locationId" required :disabled="!!data?.equipment.currentWorkOrder"><option value="">请选择范围内位置</option><option v-for="l in locations" :key="l.id" :value="l.id" :disabled="!l.reportable">{{ l.name }}{{ l.reportable ? '' : ' · 仅供观察' }}</option></select></label></div><label>台账地址原文<input v-model="fields.addressText" required maxlength="500"></label><label>设施类型<select v-model="fields.facilityType" required><option value="">请选择该空间允许类型</option><option v-for="type in types" :key="type" :value="type">{{ facilityNames[type] }}</option></select></label><label v-if="id">移动原因（位置变化时必填）<textarea v-model="fields.reason" maxlength="2000" rows="3"></textarea></label></fieldset><p v-if="id && data && version !== data.equipment.version" class="notice">台账版本已变化，编辑保留。<button type="button" class="text-button" :disabled="!!action.pending.value" @click="version = data.equipment.version">核对资料并采用当前版本</button></p><div v-if="action.pending.value" class="notice"><strong>保存结果待确认</strong><p>原输入和标识保留，尚未确认不等于失败。</p><div class="actions"><button type="button" class="secondary" :disabled="action.busy.value" @click="action.check">核对原操作结果</button><button type="button" class="secondary" :disabled="action.busy.value" @click="action.retry">使用原标识重试</button></div></div><div class="actions"><button type="submit" class="primary" :disabled="!canSave">保存设备资料</button><button v-if="id" type="button" class="secondary" :disabled="loading" @click="load">刷新只读状态</button></div></form></section></template>
+<style scoped>.form-fields { border: 0; padding: 0; min-width: 0; display: grid; gap: 18px; }</style>

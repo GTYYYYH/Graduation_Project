@@ -1,0 +1,12 @@
+const assert = require('node:assert/strict');
+const { nearestRank, frameStats } = require('./statistics.cjs');
+assert.equal(nearestRank([5, 1, 3, 2, 4], .95), 5);
+assert.equal(nearestRank(Array.from({length: 20}, (_, i) => 20 - i), .95), 19);
+assert.equal(nearestRank([10], .95), 10);
+assert.throws(() => nearestRank([], .95));
+assert.throws(() => nearestRank([1, NaN], .95));
+assert.throws(() => nearestRank([1], 0));
+assert.deepEqual(frameStats([0, 20, 40, 140, 160]), { frames: 4, durationMs: 160, fps: 25, p95IntervalMs: 100 });
+assert.throws(() => frameStats([0]));
+assert.throws(() => frameStats([0, 10, 10]));
+console.log('nearest-rank checks passed');

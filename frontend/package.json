@@ -1,0 +1,36 @@
+{
+  "name": "campus-maintenance-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.11.0",
+    "npm": "11.20.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.json",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@vue/devtools-api": "8.1.5",
+    "echarts": "6.1.0",
+    "element-plus": "2.14.7",
+    "pinia": "4.0.3",
+    "three": "0.186.1",
+    "vue": "3.5.43",
+    "vue-router": "4.6.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.10.1",
+    "@vitejs/plugin-vue": "6.0.9",
+    "typescript": "5.9.3",
+    "vite": "8.3.4",
+    "vitest": "5.0.3",
+    "vue-tsc": "3.3.13"
+  }
+}

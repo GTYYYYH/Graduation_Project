@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wzbc.maintenance.account.mapper.PersonnelQueryMapper">
+  <sql id="people">SELECT u.*,
+    (SELECT COUNT(*) FROM repair_request r WHERE r.reporter_id=u.id AND r.status IN ('PENDING_REVIEW','NEEDS_SUPPLEMENT')) pending_requests,
+    (SELECT COUNT(*) FROM work_order w WHERE w.reporter_id=u.id AND w.status&lt;&gt;'COMPLETED') unfinished_orders,
+    (SELECT COUNT(*) FROM work_order w WHERE w.status='COMPLETED' AND ((u.role='REPORTER' AND w.reporter_id=u.id) OR (u.role='TECHNICIAN' AND w.accepted_technician_id=u.id))) completed_orders,
+    (SELECT COUNT(*) FROM work_order w WHERE w.status IN ('PENDING_ACCEPT','IN_PROGRESS','PENDING_ACCEPTANCE') AND (w.assigned_technician_id=u.id OR w.accepted_technician_id=u.id)) unfinished_tasks
+    FROM user_account u</sql>
+  <sql id="filter"><where>
+    <if test="q.category == 'REPORTER_UNFINISHED'">role='REPORTER' AND (pending_requests+unfinished_orders)&gt;0</if>
+    <if test="q.category == 'REPORTER_COMPLETED'">role='REPORTER' AND completed_orders&gt;0</if>
+    <if test="q.category == 'TECHNICIAN_UNFINISHED'">role='TECHNICIAN' AND unfinished_tasks&gt;0</if>
+    <if test="q.category == 'TECHNICIAN_COMPLETED'">role='TECHNICIAN' AND completed_orders&gt;0</if>
+    <if test="q.role != null">AND role=#{q.role}</if>
+    <if test="q.reviewStatus != null">AND role='TECHNICIAN' AND review_status=#{q.reviewStatus}</if>
+    <if test="q.enabled != null">AND enabled=#{q.enabled}</if>
+    <if test="q.keyword != null">AND (LOCATE(#{q.keyword},name)&gt;0 OR LOCATE(#{q.keyword},login_name)&gt;0 OR LOCATE(#{q.keyword},phone)&gt;0)</if>
+  </where></sql>
+  <select id="list" resultType="cn.wzbc.maintenance.account.mapper.PersonnelQueryMapper$Row">WITH people AS (<include refid="people"/>) SELECT * FROM people <include refid="filter"/> ORDER BY created_at DESC,id DESC LIMIT #{q.size} OFFSET #{q.offset}</select>
+  <select id="count" resultType="long">WITH people AS (<include refid="people"/>) SELECT COUNT(*) FROM people <include refid="filter"/></select>
+  <select id="person" resultType="cn.wzbc.maintenance.account.mapper.PersonnelQueryMapper$Row">WITH people AS (<include refid="people"/>) SELECT * FROM people WHERE id=#{id}</select>
+  <select id="totals" resultType="map">WITH people AS (<include refid="people"/>) SELECT COUNT(*) allPeopleTotal,
+    COALESCE(SUM(role='REPORTER' AND pending_requests+unfinished_orders&gt;0),0) REPORTER_UNFINISHED,
+    COALESCE(SUM(role='REPORTER' AND completed_orders&gt;0),0) REPORTER_COMPLETED,
+    COALESCE(SUM(role='TECHNICIAN' AND unfinished_tasks&gt;0),0) TECHNICIAN_UNFINISHED,
+    COALESCE(SUM(role='TECHNICIAN' AND completed_orders&gt;0),0) TECHNICIAN_COMPLETED,
+    COALESCE(SUM(role='TECHNICIAN' AND review_status='PENDING'),0) pendingReviewCount FROM people</select>
+</mapper>

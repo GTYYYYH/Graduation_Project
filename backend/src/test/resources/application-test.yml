@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 2
+  flyway:
+    clean-disabled: true
+server:
+  port: 0
+campus:
+  attachment-cleanup:
+    enabled: false

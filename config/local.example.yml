@@ -1,0 +1,11 @@
+# Copy this shape to the approved external configuration directory.
+# Set CAMPUS_LOCAL_CONFIG to the absolute file: URI of that file.
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/campus_maintenance_dev?connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+    username: campus_dev
+    password: REPLACE_IN_EXTERNAL_FILE
+campus:
+  project-root: D:/快速访问/Desktop/毕业项目文件/Graduation_Project
+  attachment-root: D:/快速访问/Desktop/毕业项目文件/Graduation_Project/data/attachments/dev
+

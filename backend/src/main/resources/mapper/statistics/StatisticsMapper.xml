@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wzbc.maintenance.statistics.mapper.StatisticsMapper">
+  <!-- Exactly one row per order. Attachments, assignment history and progress are not joined. -->
+  <select id="rows" resultType="cn.wzbc.maintenance.statistics.mapper.StatisticsMapper$Row">
+    WITH round_totals AS (
+      SELECT work_order_id,COUNT(*) AS round_count,COUNT(submitted_at) AS submitted_count,
+        SUM(CASE WHEN started_at IS NULL OR (submitted_at IS NOT NULL AND submitted_at&lt;started_at) THEN 1 ELSE 0 END) AS bad_round_count,
+        SUM(CASE WHEN submitted_at&gt;=started_at THEN TIMESTAMPDIFF(MICROSECOND,started_at,submitted_at)/1000 ELSE 0 END) AS repair_millis,
+        MIN(started_at) AS first_round_started_at,MAX(submitted_at) AS last_round_submitted_at
+      FROM repair_round GROUP BY work_order_id
+    )
+    SELECT w.id,w.work_order_no,r.equipment_name AS reported_equipment_name,w.status,
+      r.first_submitted_at,w.created_at,w.accepted_at,w.completed_at,w.current_round,
+      e.id AS equipment_id,e.equipment_no,e.name AS equipment_name,e.location_id AS equipment_location_id,
+      COALESCE(t.round_count,0) AS round_count,COALESCE(t.submitted_count,0) AS submitted_count,
+      COALESCE(t.bad_round_count,0) AS bad_round_count,COALESCE(t.repair_millis,0) AS repair_millis,
+      t.first_round_started_at,t.last_round_submitted_at
+    FROM work_order w JOIN repair_request r ON r.id=w.request_id
+      LEFT JOIN equipment e ON e.id=w.equipment_id LEFT JOIN round_totals t ON t.work_order_id=w.id
+    <where>
+      <choose>
+        <when test="scope == 'MONTH_COMPLETED'">w.status='COMPLETED' AND w.completed_at&gt;=#{start} AND w.completed_at&lt;#{end}</when>
+        <when test="scope == 'MONTH_CREATED'">w.created_at&gt;=#{start} AND w.created_at&lt;#{end}</when>
+        <otherwise>1=1</otherwise>
+      </choose>
+      <if test="dateStart != null">AND w.completed_at&gt;=#{dateStart} AND w.completed_at&lt;#{dateEnd}</if>
+      <if test="equipmentId != null">AND w.equipment_id=#{equipmentId}</if>
+      <if test="unlinked">AND w.equipment_id IS NULL</if>
+      <if test="status != null">AND w.status=#{status}</if>
+      <if test="keyword != null and keyword != ''">
+        AND (CONVERT(w.work_order_no USING utf8mb4) LIKE CONCAT('%',#{keyword},'%')
+          OR r.equipment_name LIKE CONCAT('%',#{keyword},'%') OR e.name LIKE CONCAT('%',#{keyword},'%')
+          OR CONVERT(e.equipment_no USING utf8mb4) LIKE CONCAT('%',#{keyword},'%'))
+      </if>
+    </where>
+    ORDER BY COALESCE(w.completed_at,w.created_at) DESC,w.id DESC
+  </select>
+  <select id="stateCounts" resultType="cn.wzbc.maintenance.statistics.mapper.StatisticsMapper$StateCount">
+    SELECT status,COUNT(*) AS count FROM work_order GROUP BY status
+  </select>
+</mapper>

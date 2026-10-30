@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wzbc.maintenance.campus.mapper.CampusBusinessMapper">
+  <!-- One source row per independent request/order; never join progress, images or historical assignments. -->
+  <sql id="visible">
+    WITH visible AS (
+      SELECT r.location_id,r.id,'REPAIR_REQUEST' resource_type,r.request_no business_no,r.equipment_name,r.status,r.created_at,
+        CASE WHEN r.status='NEEDS_SUPPLEMENT' THEN 'needsSupplement' ELSE 'pendingReview' END stage,
+        r.status category
+      FROM repair_request r JOIN campus_location l ON l.id=r.location_id JOIN campus_floor f ON f.id=l.floor_id
+      WHERE r.location_mode='STRUCTURED' AND r.status IN ('PENDING_REVIEW','NEEDS_SUPPLEMENT')
+        <choose>
+          <when test="scope.role == 'ADMIN'"></when>
+          <when test="scope.role == 'REPORTER'">AND r.reporter_id=#{scope.userId}</when>
+          <otherwise>AND 1=0</otherwise>
+        </choose>
+        <include refid="spaceFilter"/>
+      UNION ALL
+      SELECT o.location_id,o.id,'WORK_ORDER' resource_type,o.work_order_no business_no,r.equipment_name,o.status,o.created_at,
+        CASE o.status WHEN 'PENDING_ACCEPT' THEN 'pendingAccept' WHEN 'REASSIGN_PENDING' THEN 'reassignPending'
+          WHEN 'PENDING_ACCEPTANCE' THEN 'pendingAcceptance' ELSE CASE WHEN o.current_round&gt;1 THEN 'rework' ELSE 'inProgress' END END stage,
+        CASE WHEN o.status='PENDING_ACCEPTANCE' THEN 'PENDING_ACCEPTANCE' ELSE 'FAULT_PROCESSING' END category
+      FROM work_order o JOIN repair_request r ON r.id=o.request_id JOIN campus_location l ON l.id=o.location_id JOIN campus_floor f ON f.id=l.floor_id
+      WHERE o.location_mode='STRUCTURED' AND o.status IN ('PENDING_ACCEPT','REASSIGN_PENDING','IN_PROGRESS','PENDING_ACCEPTANCE')
+        <choose>
+          <when test="scope.role == 'ADMIN'"></when>
+          <when test="scope.role == 'REPORTER'">AND o.reporter_id=#{scope.userId}</when>
+          <when test="scope.role == 'TECHNICIAN' and scope.qualified">
+            AND ((o.status='PENDING_ACCEPT' AND o.assigned_technician_id=#{scope.userId})
+              OR (o.status IN ('IN_PROGRESS','PENDING_ACCEPTANCE') AND o.accepted_technician_id=#{scope.userId}))
+          </when>
+          <otherwise>AND 1=0</otherwise>
+        </choose>
+        <include refid="spaceFilter"/>
+    )
+  </sql>
+  <sql id="spaceFilter">
+    <if test="scope.buildingId != null">AND f.building_id=#{scope.buildingId}</if>
+    <if test="scope.floorId != null">AND f.id=#{scope.floorId}</if>
+    <if test="scope.locationId != null">AND l.id=#{scope.locationId}</if>
+  </sql>
+  <select id="aggregate" resultType="cn.wzbc.maintenance.campus.mapper.CampusBusinessMapper$CountRow">
+    <include refid="visible"/>
+    SELECT location_id,SUM(stage='pendingAccept') pending_accept,SUM(stage='reassignPending') reassign_pending,
+      SUM(stage='inProgress') in_progress,SUM(stage='rework') rework,SUM(stage='pendingAcceptance') pending_acceptance,
+      SUM(stage='needsSupplement') needs_supplement,SUM(stage='pendingReview') pending_review
+    FROM visible GROUP BY location_id ORDER BY location_id
+  </select>
+  <select id="itemCount" resultType="long">
+    <include refid="visible"/>
+    SELECT COUNT(*) FROM visible <if test="category != null">WHERE category=#{category}</if>
+  </select>
+  <select id="items" resultType="cn.wzbc.maintenance.campus.mapper.CampusBusinessMapper$ItemRow">
+    <include refid="visible"/>
+    SELECT id,resource_type,business_no,equipment_name,status,stage,created_at FROM visible
+    <if test="category != null">WHERE category=#{category}</if>
+    ORDER BY created_at DESC,id DESC LIMIT #{limit} OFFSET #{offset}
+  </select>
+</mapper>
